@@ -9,7 +9,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(97, 97, 97);
+    background-color: rgb(67, 173, 168);
     /* background: linear-gradient(40deg, #804bbd, #2b1645); */
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
