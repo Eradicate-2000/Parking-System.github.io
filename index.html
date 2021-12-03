@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Vehicle Parking System</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1 class="heading">Vehicle Parking System</h1>
+        <div class="formInput">
+            <input type="text" id="vehicleNo" placeholder="Enter The Vehicle Number">
+            <select id="vehicleType">
+                <option value="Select" selected>Select</option>
+                <option value="Car">Car</option>
+                <option value="Scooty">Scooty</option>
+                <option value="Bike">Bike</option>
+                <option value="Auto">Auto</option>
+                <option value="Truck">Truck</option>
+            </select>
+            <button type="button" onclick="addVehicle()">Add Vehicle</button>
+        </div>
+        <div align='center'>
+            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1531868/widgets/365804"></iframe> </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Vehicle No.</th>
+                    <th>Vehicle Type</th>
+                    <th>Vehicle Entry Time</th>
+                    <th>Vehicle Exit Time</th>
+                    <th>Departed</th>
+                    <th>Amount</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+
+            </tbody>
+        </table>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
